@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./src/imagens/marvel.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Guardiões da Galáxia 3</title>
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/Trailer - Guardiões da Galáxia 800 x 1920.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/marvel.png" alt="logo the last of  us">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="https://phfreitas27.github.io/projeto-guardioes-da-galaxia/">Home</a></li>
+                <li><a href="https://www.marvel.com/movies/guardians-of-the-galaxy-volume-3" target="_blank" rel="noopener noreferrer">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class = "informacoes">
+            <img class="imagem-titulo" src="./src/imagens/titulo.png" alt="Titulo do Filme">
+            <p class="descricao">
+                Ainda se recuperando da perda de Gamora, Peter Quill reúne sua equipe para defender o universo - uma missão que pode significar o fim dos Guardiões se não for bem sucedida...
+            </p>
+            <button class="botao-trailer">
+                Veja o trailer
+            </button>
+        </div>
+        <img class="principal" src="./src/imagens/aa.png">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                    <iframe id = "video" width="560" height="315"src="https://www.youtube.com/embed/tqot0Ws2wFs" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    	<script src="./src/js/index.js"></script>
+</body>
+</html>
